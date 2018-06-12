@@ -1,0 +1,17 @@
+Source: kmfl-keyboard-devanagari
+Section: x11
+Priority: optional
+Maintainer: Indic Dev <indic_dev@sil.org>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+
+Package: kmfl-keyboard-devanagari
+Architecture: all
+Depends: kmfl-keyboard-indic-common, ${misc:Depends}
+Recommends: ttf-devanagari-fonts
+Description: Keyboard for Devanagari script
+ Keyboard used with Keyman on Windows
+ and now with IBus on Debian/Ubuntu.
+ .
+ There are two keyboards, one has a romanized layout, the
+ other is the same as the Winscript Devanagari layout.
